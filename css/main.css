@@ -24,8 +24,8 @@ h5 {
 /*Start Navbar*/
 
 .navbar-inverse.scrolled {
-    background-color: rgba(3, 3, 3, .5);
-    border-color: rgba(3, 3, 3, .5);
+    background-color: rgba(3, 3, 3, .7);
+    border-color: rgba(3, 3, 3, .7);
 }
 
 
@@ -129,3 +129,97 @@ header form input[type='submit'] {
 
 
 /*End Header*/
+
+
+/*Start Social Media*/
+
+.social-media {
+    padding: 10px;
+    background: #fff;
+    -webkit-box-shadow: -21px -5px 13px #000;
+    -moz-box-shadow: -21px -5px 13px #000;
+    -o-box-shadow: -21px -5px 13px #000;
+    box-shadow: -21px -5px 13px #000;
+}
+
+.social-media h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.social-media p {
+    line-height: 1.4;
+    color: #A1A1A1;
+}
+
+.social-media a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.social-media a i {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin: 20px 15px;
+}
+
+.social-media a .fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.social-media a .fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.social-media a .fa-linkedin-in:hover {
+    color: #0077b5;
+}
+
+.social-media a .fa-pinterest-p:hover {
+    color: #bd081c;
+}
+
+.social-media a .fa-behance:hover {
+    color: #1769ff;
+}
+
+.social-media a .fa-hackerrank:hover {
+    color: #2ec866;
+}
+
+.social-media a .fa-instagram:hover {
+    color: #ffdc80;
+}
+
+
+/*End Social Media*/
+
+
+/*Start Tabs Section*/
+
+.tabs-sections {
+    padding: 80px 0;
+    background: #f5f5f5;
+    margin-top: 7px;
+}
+
+.tabs-sections .tab-switch li {
+    background-color: #333;
+    color: #fff;
+    height: 110px;
+    line-height: 110px;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+.tabs-sections .tab-switch li.selected,
+.tabs-sections .tab-switch li:hover {
+    background: var(--main-color);
+    color: #fff
+}
+
+
+/*End Tabs Section*/

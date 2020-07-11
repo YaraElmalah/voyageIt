@@ -1,7 +1,20 @@
 /*Start Global Rules*/
 
+:root {
+    --main-color: #e66767;
+}
+
 body {
     height: 5000px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -39,7 +52,42 @@ header .overlay {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(3, 3, 3, .6);
+    background-color: rgba(3, 3, 3, .85);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 65px;
+    color: var(--main-color);
+}
+
+header h1 span {
+    font-weight: normal;
+    color: #FFF;
+}
+
+header .lead {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+header .lead::before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #fff;
+    margin: 25px 0;
+}
+
+header button {
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 

@@ -221,5 +221,28 @@ header form input[type='submit'] {
     color: #fff
 }
 
+.tabs-sections .tabs-content h3 {
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+.tabs-sections .tabs-content .lead {
+    line-height: 1.9;
+    font-size: 24px;
+    color: #2e2b2b;
+}
+
+.tabs-sections .tabs-content button {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.tabs-sections .tabs-content div:not(:first-child),
+.tabs-sections .tabs-img img:not(:first-child) {
+    display: none;
+}
+
 
 /*End Tabs Section*/

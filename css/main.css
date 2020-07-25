@@ -2,6 +2,7 @@
 
 :root {
     --main-color: #e66767;
+    --p-color: #a9aaac
 }
 
 body {
@@ -15,6 +16,15 @@ h3,
 h4,
 h5 {
     font-family: 'Raleway', sans-serif;
+}
+
+.head-border::after {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 3px;
+    background-color: var(--main-color);
+    margin: 25px 0;
 }
 
 
@@ -246,3 +256,102 @@ header form input[type='submit'] {
 
 
 /*End Tabs Section*/
+
+
+/*Start Features*/
+
+.sublist {
+    padding: 70px 0;
+}
+
+.sublist .sub-img {
+    margin-top: 50px;
+    box-shadow: 9px 7px 10px 0px #e2dcdc;
+}
+
+.sublist .list-info {
+    padding-left: 20px
+}
+
+.sublist .list-info h3 {
+    font-weight: bold;
+}
+
+.sublist .list-info p {
+    color: var(--p-color);
+    line-height: 1.6;
+}
+
+.sublist .list-icon {
+    margin-top: 30px;
+}
+
+.sublist .list-info i,
+.awesome i {
+    width: 65px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    text-align: center;
+    border-radius: 50%;
+    height: 65px;
+    line-height: 58px;
+    margin-right: 20px;
+}
+
+.sublist .list-info .text-info {
+    width: calc(100% - 85px);
+}
+
+.sublist .list-info .text-info h4 {
+    font-weight: bold;
+}
+
+.sec-sec {
+    background: #f5f5f5;
+}
+
+.sec-sec .sub-img {
+    margin-top: 0;
+}
+
+.sec-sec .list-info {
+    margin-top: 50px;
+}
+
+
+/*End Features*/
+
+
+/*Start Awesome Section*/
+
+.awesome {
+    padding: 80px 0;
+}
+
+.awesome h2 {
+    font-size: 50px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.awesome p {
+    color: var(--p-color);
+    margin-bottom: 50px;
+}
+
+.awesome .box h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*End Awesome Section*/
+
+
+/*Start Price Option*/
+
+.price-options {}
+
+
+/*Start Price Option*/

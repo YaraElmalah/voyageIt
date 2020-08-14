@@ -44,8 +44,7 @@ h5 {
 
 /*Start Header*/
 
-header,
-.stylish {
+header {
     background: url('../images/header.webp') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -463,4 +462,86 @@ header form input[type='submit'] {
 }
 
 
-/*Start Testimonials*/
+/*End Testimonials*/
+
+
+/*Start stylish section*/
+
+.stylish {
+    background: url('../images/book.jpg') no-repeat center center;
+    min-height: 320px;
+    padding: 70px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.stylish .overlay {
+    padding: 60px 0
+}
+
+.stylish .head-border::after {
+    position: absolute;
+    left: 47%;
+    top: 105px;
+}
+
+.stylish .stylish-desc {
+    margin-top: 36px;
+    color: var(--p-color);
+}
+
+.stylish button {
+    padding: 10px;
+    display: block;
+    border: 2px solid #fff;
+    background: transparent;
+    margin: 30px auto;
+}
+
+
+/*End Stylish Section*/
+
+
+/*Start Contact Us*/
+
+.contact-us {
+    padding: 80px 0;
+}
+
+.contact-us .contact-desc {
+    margin-bottom: 40px;
+    color: var(--p-color)
+}
+
+.contact-us form input[type="text"],
+.contact-us form input[type="email"],
+.contact-us form textarea {
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.contact-us form textarea {
+    height: 216px;
+    resize: none
+}
+
+.contact-us .contact-btn {
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    border: none
+}
+
+
+/*End Contact Us*/

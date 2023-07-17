@@ -2,6 +2,7 @@
 
 The VoyageIt UI project is a user interface implementation of the VoyageIt travel management system. This project focuses on creating an intuitive and visually appealing user interface using HTML, CSS, Bootstrap, Font Awesome, and jQuery.
 
+
 ## Features
 
 - **Responsive Design:** The user interface is designed to adapt and provide an optimal experience across different devices and screen sizes.
@@ -12,7 +13,7 @@ The VoyageIt UI project is a user interface implementation of the VoyageIt trave
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/YourUsername/voyageit-ui`
-2. Open the project directory: `cd voyageit-ui`
+2. Open the project directory: `cd voyageit-it`
 3. Launch the index.html file in a web browser.
 
 ## Usage
@@ -36,6 +37,12 @@ This project is licensed under the MIT License.
 
 We hope you enjoy using the VoyageIt UI project and find it helpful in creating visually appealing and user-friendly interfaces for your travel management applications.
 
+## Node.js Project
+
+I'm currently working on a Node.js project that complements the VoyageIt travel management system. You can find the code and details in the [VoyageIt Node.js Project](https://github.com/YaraElmalah/voyageit-node-mvc) repository. This project leverages Node.js and incorporates features like login system, booking system, itinerary management, and more to enhance the travel experience.
+
+Feel free to explore the repository and contribute to its development. Your feedback, suggestions, and contributions are highly appreciated as we continue to improve and refine the Node.js project for an even better travel management experience.
+ 
 ## Contact
 
 If you have any questions or suggestions regarding this repository, feel free to reach out to the project maintainer:

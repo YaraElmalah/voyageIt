@@ -51,7 +51,7 @@ If you have any questions or suggestions regarding this repository, feel free to
   - Email: yaraelmalah2016@gmail.com | yaraelmalah@gmail.com
   - Linkdin: [Yara Elmalah](https://www.linkedin.com/in/yara-elmalah/)
 
-We appreciate your interest and contributions to this repository. Happy coding with Node.js :computer: :clinking_glasses:
+We appreciate your interest and contributions to this repository. Happy coding :computer: :clinking_glasses:
 
 
 Best regards,
